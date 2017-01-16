@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
         var currentAttrValue = jQuery(this).attr('href');
  
         // Show/Hide Tabs
-        jQuery('.tab-content ' + currentAttrValue).show().siblings().hide();
+        jQuery('#maincontent ' + currentAttrValue).show().siblings().hide();
  
         // Change/remove current tab to active
         jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
