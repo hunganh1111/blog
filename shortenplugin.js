@@ -13,7 +13,7 @@
 	
 		var config = {
 			showChars: 100,
-			ellipsesText: "...",
+			ellipsesText: " ",
 			moreText: "more",
 			lessText: "less"
 		};
